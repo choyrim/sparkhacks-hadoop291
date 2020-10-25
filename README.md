@@ -71,6 +71,10 @@ Since the last step in committing the results of a write in spark involves renam
 the final output data files will ignore the default encryptions settings configured
 for the bucket.
 
+An official fix for this bug is slated for hadoop 3.4.
+Since the most recent hadoop released with spark 3.0 was hadoop 3.2, it will be a while
+before the fix will be generally available to the spark community.
+
 To remedy this bug, this package provides a port of the bug fix from branch 3.3.0 and tested on 2.9.1 and 3.2.1.
 
 ### Usage
